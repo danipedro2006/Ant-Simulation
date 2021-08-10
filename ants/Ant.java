@@ -15,7 +15,7 @@ public class Ant {
 	public boolean alive;
 	public static int number;
 	String name;
-	public Point target;
+	public FloatPoint target;
 	public Trail myTrail;
 	public Food myFood;
 	

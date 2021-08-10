@@ -8,13 +8,13 @@ import java.awt.geom.Ellipse2D;
 
 public class Nest {
 	
-	Point location;
+	FloatPoint location;
 	Graphics2D g2;
 	
 	public Nest(Field field) {
 		int x=10;
 		int y=20;
-		location=new Point(x,y);
+		location=new FloatPoint(x,y);
 	}
 	
 	public void paint(Graphics g) {
