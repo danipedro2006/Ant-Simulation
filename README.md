@@ -19,8 +19,8 @@ When congestion was simulated on the artificial networks, the ants beat all the 
 Exceptional abilities    
 The artificial ants are also good at solving a version of a knotty computational problem known as the Travelling Salesman Problem, which involves finding the shortest route that takes in all destinations on a given map.  The ants have turned out to be exceptional at tackling a variant of this problem known the Sequential Ordering Problem (SOP), in which a number of locations have to be visited and goods either have to be dropped off or picked up.  A fuel firm on the Italian-Swiss border is using ant-derived algorithms to work out the best route for its drivers delivering supplies to petrol stations.  
  
-## Screenshot
-![Simulator TBC]
+## Screenshot Ants Simulator
+<img src=https://github.com/danipedro2006/Ants-Simulation/blob/main/lmHzYvkJ2I.gif width="438"  height="421">
  
 ## Technologies
 * Java 1.8
