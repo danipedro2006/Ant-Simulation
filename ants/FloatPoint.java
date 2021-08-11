@@ -30,7 +30,7 @@ public class FloatPoint {
 	}
 	
 	int distance(FloatPoint location) {
-		FloatPoint p=new FloatPoint((int) location.x, (int) location.y);
-		return p.distance(location);
+		Point p=new Point((int) location.x, (int) location.y);
+		return (int) p.distance(x,y);
 	}
 }

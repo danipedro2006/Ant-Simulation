@@ -12,8 +12,9 @@ public class Nest {
 	Graphics2D g2;
 	
 	public Nest(Field field) {
-		int x=10;
-		int y=20;
+		int x=(int) ((Math.random()*(double) field.getWidth()*0.75)+field.getHeight()*0.25);
+		int y=(int) ((Math.random()*(double) field.getWidth()*0.75)+field.getHeight()*0.25);
+		
 		location=new FloatPoint(x,y);
 	}
 	

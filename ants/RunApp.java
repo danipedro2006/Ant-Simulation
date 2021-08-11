@@ -14,9 +14,11 @@ public class RunApp {
 		Field field=new Field();
 		frame.setResizable(false);
 		Container c=frame.getContentPane();
+		c.setLayout(new BorderLayout());
+		
 		c.add(field,BorderLayout.CENTER);
 	
-		frame.setSize(400,400);
+		frame.setSize(600,600);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 		

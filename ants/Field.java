@@ -20,18 +20,21 @@ public class Field extends JComponent {
 	public Food[] food = new Food[foodSize];
 
 	public Field() {
-		this.setSize(400, 400);
+		this.setSize(600, 600);
 		nest = new Nest(this);
 
 		for (int i = 0; i < foodSize; i++) {
 			food[i] = new Food(this);
 			trail[i] = new Trail(this, food[i]);
 		}
+		
+		for(int i=0;i<antSize;i++) {
+			ant[i]=new Ant(this,nest.location);		}
 	}
 
 	public void paint(Graphics g) {
 		g2 = (Graphics2D) g;
-		Shape r = new Rectangle(400, 400);
+		Shape r = new Rectangle(600, 600);
 		g2.setColor(Color.GREEN);
 		g2.fill(r);
 		g2.draw(r);
@@ -41,7 +44,10 @@ public class Field extends JComponent {
 			trail[i].paint(g2);
 			food[i].paint(g2);
 		}
-
+		
+		for(int i=0;i<antSize;i++) {
+			ant[i].paint(g2);
+		}
 		nest.paint(g2);
 
 	}
@@ -78,5 +84,18 @@ public class Field extends JComponent {
 		} else {
 			return false;
 		}
+	}
+
+	public Food senseTrail(FloatPoint location) {
+		for(int i=0;i<foodSize;i++) {
+			Trail t=trail[i];
+			for(int j=0;j<t.path.size();j++) {
+				if(location.distance(t.path.get(j))<1.0) {
+					t.decay(location);
+					return t.food;
+				}
+			}
+		}
+		return null;
 	}
 }
