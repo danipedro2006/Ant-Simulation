@@ -13,13 +13,13 @@ Individually, ants may be stupid, but put enough of them together and they manag
 What they find in the environment is determined by what's done previously by other members of their colony.
 
 Artificial ants   
-To apply this neat organisational ability to networks we create artificial ants that can lay and sniff pheromone trails and canlearn their way around a network. At periodic intervals, artificial ants were let loose from each node on these networks and told to find a route to a given destination. By simply laying and smelling the strength of the pheromones along each potential path, the ants swiftly generated maps that showed the fastest route to any end point.  
-When congestion was simulated on the artificial networks, the ants beat all the other popular routing systems in the speed with which they reconfigured the network to avoid the traffic jams.  
+To apply this neat organisational ability to networks we create artificial ants that can lay and sniff pheromone trails and can learn their way around a network. At periodic intervals, artificial ants were let loose from each node on these networks and told to find a route to a given destination. By simply laying and smelling the strength of the pheromones along each potential path, the ants swiftly generate maps that show the fastest route to any end point.  
+When congestion is simulated on the artificial networks, the ants beat all the other popular routing systems in the speed with which they reconfigure the network to avoid the traffic jams.  
 
 Exceptional abilities    
-The artificial ants are also good at solving a version of a knotty computational problem known as the Travelling Salesman Problem, which involves finding the shortest route that takes in all destinations on a given map.  The ants have turned out to be exceptional at tackling a variant of this problem known the Sequential Ordering Problem (SOP), in which a number of locations have to be visited and goods either have to be dropped off or picked up.  A fuel firm on the Italian-Swiss border is using ant-derived algorithms to work out the best route for its drivers delivering supplies to petrol stations.  
+The artificial ants are also good at solving a version of a knotty computational problem known as the Travelling Salesman Problem, which involves finding the shortest route that takes in all destinations on a given map. The ants have turned out to be exceptional at tackling a variant of this problem known the Sequential Ordering Problem (SOP), in which a number of locations have to be visited and goods either have to be dropped off or picked up.  A fuel firm on the Italian-Swiss border is using ant-derived algorithms to work out the best route for its drivers delivering supplies to petrol stations.  
  
-## Screenshot Ants Simulator
+## Ants Simulator
 <img src=https://github.com/danipedro2006/Ants-Simulation/blob/main/lmHzYvkJ2I.gif width="438"  height="421">
  
 ## Technologies
@@ -27,7 +27,7 @@ The artificial ants are also good at solving a version of a knotty computational
 * Java Swing
 
 ## Status
-Project is uder development.
+Project is under development.
 
 ## Contact
-Created by @Danisoft Arad 2019 (https://danipedro2006.github.io/) - feel free to contact me!
+Created by @Danisoft Arad 2021 (https://danipedro2006.github.io/) - feel free to contact me!
